@@ -1,23 +1,145 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
+<div class="main-page">
+<div class="main">
 
-<header class="hero-unit" id="banner">
-  <div class="container">
-    <h1>'Allo, 'Allo!</h1>
-    <p class="lead">Kick-start your next web app with Angular Fullstack</p>
-    <img src="assets/images/yeoman.png" alt="I'm Yeoman">
-  </div>
-</header>
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-      <h1 class="page-header">Features:</h1>
-      <ul class="nav nav-tabs nav-stacked col-md-4 col-lg-4 col-sm-6" ng-repeat="thing in awesomeThings">
-        <li><a href="#" tooltip="{{thing.info}}">{{thing.name}}</a></li>
-      </ul>
+  <div class="jumbotron">
+  <div class="cold-md-6">
+    <div class="animated bounce"><h1>Welcome to Zen Color System</h1></div>
+    <div class="animated bounceInLeft">
+    <p class="lead">We use color prefernce to show how each person prioritizes their life. Color preference is innate. A preffered color, for example, visually inspires a person to feel their hopes and aspirations. A non-preferred color irritatingly reminds them of what is missing in their life.</p>
+    </div>
     </div>
   </div>
+  </div>
+<!-- </header> -->
+<section>
+
+      <div class="container">
+      <div class="line"></div>
+      <div class="row bio z-pos-close transition">
+        <div class="idea col-md-6 col-sm-6">
+        <h2> Primary Category</h2>
+        <h4> Select your favorite </h4>
+        <hr>
+          <md-button class="md-fab" style="background-color: yellow" aria-label="Play">
+              <md-tooltip>
+                YELLOW
+              </md-tooltip>
+              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
+          </md-button>
+          <md-button class="md-fab" style="background-color: blue" aria-label="Play">
+              <md-tooltip>
+                BLUE
+              </md-tooltip>
+              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
+          </md-button>
+          <md-button class="md-fab" style="background-color: red" aria-label="Play">
+              <md-tooltip>
+                RED
+              </md-tooltip>
+              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
+          </md-button>
+          </div>
+          </div>
+          </div>
+          <br/>
+
+        <div class="container">
+        <div class="line"></div>
+        <div class="row bio z-pos-close transition">
+        <div class="idea col-md-6 col-sm-6">
+        <h2> Secondary Category</h2>
+        <h4> Select your favorite </h4>
+        <hr>
+          <md-button class="md-fab" style="background-color: green" aria-label="Play">
+              <md-tooltip>
+                GREEN
+              </md-tooltip>
+              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
+          </md-button>
+          <md-button class="md-fab" style="background-color: purple" aria-label="Play">
+              <md-tooltip>
+                PURPLE
+              </md-tooltip>
+              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
+          </md-button>
+          <md-button class="md-fab" style="background-color: orange" aria-label="Play">
+              <md-tooltip>
+                ORANGE
+              </md-tooltip>
+              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
+          </md-button>
+          </div>
+          </div>
+          </div>
+</section>
+
+
+
+
+        <br/>
+         <br/>
+
+
+
+<!-- <div md-theme="docs-dark">
+
+<div class="container">
+<div class="row"> -->
+<!-- <md-button> Flat Button </md-button>
+<md-button href="http://google.com"> Flat link </md-button>
+<md-button class="md-raised md-warn"> Raised Button </md-button>
+<md-button ng-disabled="true"> Disabled Button </md-button>
+<md-button>
+  <md-icon md-svg-src="your/icon.svg"></md-icon>
+  Register Now
+</md-button> -->
+<!-- <div class="container">
+<md-button class="md-fab md-accent" aria-label="Play">
+  <md-tooltip>
+    Yellow
+  </md-tooltip>
+  <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
+</md-button>
+</div> -->
+<!-- <div class="container">
+<div layout="column" layout-fill>
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <span>My App's Title</span>
+      <!-- fill up the space between left and right area -->
+
+
+<div class="container">
+<div layout="row" layout-padding class="bg-dark-blue nav-dark" layout-align="space-between center">
+<div>
+    <md-button>Home</md-button>
+    <md-button>Item 1</md-button>
+    <md-button>Item 2</md-button>
+    <md-menu>
+        <md-button md-menu-origin ng-click="$mdOpenMenu()">Help</md-button>
+        <md-menu-content width="2">
+            <md-menu-item>
+                <md-button>Help</md-button>
+            </md-menu-item>
+            <md-menu-item>
+                <md-button>About</md-button>
+            </md-menu-item>
+        </md-menu-content>
+    </md-menu>
 </div>
+<div class="nav-buttons">
+    <md-button class="md-raised md-accent">My profile</md-button>
+    <md-button class="md-raised md-warn">Log Out</md-button>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+
 
 <footer class="footer">
   <div class="container">

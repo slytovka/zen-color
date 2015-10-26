@@ -9,3 +9,9 @@ angular.module('zenColorApp')
         controller: 'MainCtrl'
       });
   });
+
+// angular.module('zenColorApp', ['ngMaterial'])
+//   .config(function($mdThemingProvider) {
+//     $mdThemingProvider.theme('default')
+//       .dark();
+//   });

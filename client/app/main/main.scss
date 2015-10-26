@@ -1,6 +1,45 @@
 .thing-form {
     margin: 20px 0;
 }
+body{
+    color: white;
+    background: black;
+}
+.container{
+    height: auto;
+}
+section {
+    background-color: black;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: 20px 80px;
+    position: relative;
+    top: 40px;
+}
+.main {
+    height: 750px;
+    margin-top: 40px;
+    background-image: url(../assets/images/background-color.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
+}
+.navbar {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-bottom: 30px;
+}
 
 #banner {
     border-bottom: none;
@@ -31,4 +70,11 @@
 
 .navbar-text {
   margin-left: 15px;
+  color: white;
+}
+#navbar-main li {
+    color: white;
+}
+.nav li {
+    color: red;
 }
