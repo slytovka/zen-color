@@ -5,6 +5,10 @@ angular.module('zenColorApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    },
+     {
+      'title': 'Colors',
+      'link': '/colors'
     }];
 
     $scope.isCollapsed = true;
