@@ -12,139 +12,47 @@
   </div>
   </div>
 <!-- </header> -->
-<section>
-
-      <div class="container">
-      <div class="line"></div>
-      <div class="row bio z-pos-close transition">
-        <div class="idea col-md-6 col-sm-6">
-        <h2> Primary Category</h2>
-        <h4> Select your favorite </h4>
-        <hr>
-          <md-button class="md-fab" style="background-color: yellow" aria-label="Play">
-              <md-tooltip>
-                YELLOW
-              </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
-          </md-button>
-          <md-button class="md-fab" style="background-color: blue" aria-label="Play">
-              <md-tooltip>
-                BLUE
-              </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
-          </md-button>
-          <md-button class="md-fab" style="background-color: red" aria-label="Play">
-              <md-tooltip>
-                RED
-              </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
-          </md-button>
-          </div>
-          </div>
-          </div>
-          <br/>
-
+<section id="contact">
         <div class="container">
         <div class="line"></div>
         <div class="row bio z-pos-close transition">
-        <div class="idea col-md-6 col-sm-6">
-        <h2> Secondary Category</h2>
-        <h4> Select your favorite </h4>
-        <hr>
-          <md-button class="md-fab" style="background-color: green" aria-label="Play">
-              <md-tooltip>
-                GREEN
-              </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
-          </md-button>
-          <md-button class="md-fab" style="background-color: purple" aria-label="Play">
-              <md-tooltip>
-                PURPLE
-              </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
-          </md-button>
-          <md-button class="md-fab" style="background-color: orange" aria-label="Play">
-              <md-tooltip>
-                ORANGE
-              </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
-          </md-button>
-          </div>
+        <div class=" about col-md-8 col-md-offset-2">
+          <h2> Let's talk</h2>
+          <hr>
+          <form name="myform" id="contactForm" enctype="multipart/form-data">
+                  <div class="row">
+                    <span>My name is</span>
+                    <div class="inputField" id="contactName">
+                    <input type="text" name="contactName" id="ctName"  tabindex="100">
+                    <label for="ctName"></label>
+                  </div><!--/ #contactName -->
+                  </div>
+                  <div class="row">
+                    <span>My email is</span>
+                  <div class="inputField" id="contactEmail">
+                    <input type="email" name="contactEmail" id="ctEmail"  tabindex="101">
+                    <label for="ctEmail"></label>
+                  </div><!--/ #contactEmail -->
+                  </div>
+                  <div class="row">
+                    <span>My phone is</span>
+                  <div class="inputField" id="contactPhone">
+                    <input type="text" name="contactPhone" id="ctPhone"  tabindex="102">
+                    <label for="ctPhone"></label>
+                  </div><!--/ #contactPhone -->
+                  </div>
+
+                  <button class="btn btn-trinity btn-trinity-neonyellow" id="submit" name="submit" type="submit">Send Message</button>
+              </form>
           </div>
           </div>
 </section>
 
-
-
-
-        <br/>
-         <br/>
-
-
-
-<!-- <div md-theme="docs-dark">
-
-<div class="container">
-<div class="row"> -->
-<!-- <md-button> Flat Button </md-button>
-<md-button href="http://google.com"> Flat link </md-button>
-<md-button class="md-raised md-warn"> Raised Button </md-button>
-<md-button ng-disabled="true"> Disabled Button </md-button>
-<md-button>
-  <md-icon md-svg-src="your/icon.svg"></md-icon>
-  Register Now
-</md-button> -->
-<!-- <div class="container">
-<md-button class="md-fab md-accent" aria-label="Play">
-  <md-tooltip>
-    Yellow
-  </md-tooltip>
-  <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
-</md-button>
-</div> -->
-<!-- <div class="container">
-<div layout="column" layout-fill>
-  <md-toolbar>
-    <div class="md-toolbar-tools">
-      <span>My App's Title</span>
-      <!-- fill up the space between left and right area -->
-
-
-<div class="container">
-<div layout="row" layout-padding class="bg-dark-blue nav-dark" layout-align="space-between center">
-<div>
-    <md-button>Home</md-button>
-    <md-button>Item 1</md-button>
-    <md-button>Item 2</md-button>
-    <md-menu>
-        <md-button md-menu-origin ng-click="$mdOpenMenu()">Help</md-button>
-        <md-menu-content width="2">
-            <md-menu-item>
-                <md-button>Help</md-button>
-            </md-menu-item>
-            <md-menu-item>
-                <md-button>About</md-button>
-            </md-menu-item>
-        </md-menu-content>
-    </md-menu>
 </div>
-<div class="nav-buttons">
-    <md-button class="md-raised md-accent">My profile</md-button>
-    <md-button class="md-raised md-warn">Log Out</md-button>
-</div>
-</div>
-
-
-
-</div>
-</div>
-
 
 
 <footer class="footer">
   <div class="container">
-      <p>Angular Fullstack v2.1.1 |
-        <a href="https://twitter.com/tyhenkel">@tyhenkel</a> |
-         <a href="https://github.com/DaftMonk/generator-angular-fullstack/issues?state=open">Issues</a></p>
+        <a href="https://github.com/slytovka">Made by Steven Lytovka &#169; 2015</a>
   </div>
 </footer>
