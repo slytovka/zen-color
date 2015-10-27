@@ -78,3 +78,22 @@ section {
 .nav li {
     color: red;
 }
+.signup, .login, .admin {
+    margin-top: 35px;
+}
+.colors {
+    margin-top: 50px;
+}
+.idea {
+    background: grey;
+    margin: 6px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+.result1, .result2, .result3 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+}
