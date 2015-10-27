@@ -4,6 +4,7 @@ var User = require('./user.model');
 var passport = require('passport');
 var config = require('../../config/environment');
 var jwt = require('jsonwebtoken');
+var _ = require('lodash');
 
 var validationError = function(res, err) {
   return res.status(422).json(err);
@@ -76,6 +77,23 @@ exports.changePassword = function(req, res, next) {
     } else {
       res.status(403).send('Forbidden');
     }
+  });
+};
+
+/**
+ * Update user info
+**/
+
+exports.update = function(req, res, next) {
+  var userId = req.user._id
+  User.findById(userId, function (err, user) {
+    if (err) { return handleError(res, err); }
+    if (!user) { return res.status(404).send('Not Found'); }
+    var updated = _.merge(user, req.body);
+    updated.save(function (err) {
+      if (err) { return handleError(res, err); }
+      return res.status(200).json(user);
+    });
   });
 };
 
