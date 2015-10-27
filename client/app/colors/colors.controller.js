@@ -77,6 +77,7 @@ angular.module('zenColorApp')
         console.log(user);
         $http.put('/api/users/' + user._id, user);
       });
+      $scope.color1 = false;
     };
 
 

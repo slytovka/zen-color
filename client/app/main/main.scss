@@ -78,7 +78,7 @@ section {
 .nav li {
     color: red;
 }
-.signup, .login, .admin {
+.signup, .login, .admin, .settings {
     margin-top: 35px;
 }
 .colors {
@@ -99,11 +99,30 @@ section {
     display: inline-block;
     float: right;
 }
+
 .submit {
 margin-top: 25px;
 }
 .about {
     text-align: center;
+}
+.results {
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid #1291FF;
+    background: rgba(23, 51, 68, 0.8);
+    color: #FFF;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+.results p {
+    background-color: #020E15;
+    width: 100%;
+}
+
+.md-fab {
+    margin-top: -3px;
+    text-align: none;
+    padding-bottom: 8px;
 }
 
 /*Contact */
@@ -355,11 +374,7 @@ fieldset h1 {
     margin-top: 0px;
     border-radius: 0px;
     padding: 5px;
-    -webkit-transition: all .8s linear;
-       -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
-         -o-transition: all .8s linear;
-            transition: all .8s linear;
+    transition: all .8s linear;
 }
 .btn-trinity{
     border-radius: 0px;

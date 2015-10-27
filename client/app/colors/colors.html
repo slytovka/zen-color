@@ -13,19 +13,16 @@
               <md-tooltip>
                 YELLOW
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <md-button class="md-fab" style="background-color: blue" ng-click="colorize('blue')" aria-label="Play">
               <md-tooltip>
                 BLUE
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <md-button class="md-fab" style="background-color: red" ng-click="colorize('red')" aria-label="Play">
               <md-tooltip>
                 RED
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <div class="result1" ng-style="myStyle1"></div>
           </div>
@@ -40,19 +37,16 @@
               <md-tooltip>
                 GREEN
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <md-button class="md-fab" style="background-color: purple" ng-click="colorize('purple')" aria-label="Play">
               <md-tooltip>
                 PURPLE
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <md-button class="md-fab" style="background-color: orange" ng-click="colorize('orange')" aria-label="Play">
               <md-tooltip>
                 ORANGE
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <div class="result2" ng-style="myStyle2"></div>
           </div>
@@ -62,7 +56,7 @@
             <div class="container">
         <div class="line"></div>
         <div class="row bio z-pos-close transition">
-        <div class="col-md-5 col-md-offset-3">
+        <div class="col-md-6 col-md-offset-3">
         <div id = "idea">
           <h2> Achromatic Category</h2>
         <h4> Select your favorite </h4>
@@ -71,19 +65,16 @@
               <md-tooltip>
                 BLACK
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <md-button class="md-fab" style="background-color: white" ng-click="colorize('white')" aria-label="Play">
               <md-tooltip>
                 WHITE
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <md-button class="md-fab" style="background-color: brown" ng-click="colorize('brown')" aria-label="Play">
               <md-tooltip>
                 BROWN
               </md-tooltip>
-              <md-icon icon="img/icons/ic_play_arrow_24px.svg"></md-icon>
           </md-button>
           <div class="result3" ng-style="myStyle3"></div>
           </div>
@@ -95,6 +86,7 @@
           </div>
           </div>
           </div>
+          <div class="animated fadeIn">
           <div class="results" ng-show="isComplete">
           <p>Things about you:</p>
              <p ng-repeat="color in colors">{{color.info}}</p>
@@ -106,6 +98,7 @@
           <div class = "results" ng-show="isComplete">
           <p>You are:</p>
             <li ng-repeat= "color in colors">{{color.keyWords}}</li>
+          </div>
           </div>
     </section>
 </div>
