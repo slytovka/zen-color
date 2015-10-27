@@ -4,7 +4,8 @@
       <div class="container">
       <div class="line"></div>
       <div class="row bio z-pos-close transition">
-        <div class="idea col-md-6 col-sm-6">
+        <div class="col-md-5 col-md-offset-1">
+        <div id = "idea">
         <h2> Primary Category </h2>
         <h4> Select your favorite </h4>
         <hr>
@@ -29,13 +30,9 @@
           <div class="result1" ng-style="myStyle1"></div>
           </div>
           </div>
-          </div>
-          <br/>
 
-        <div class="container">
-        <div class="line"></div>
-        <div class="row bio z-pos-close transition">
-        <div class="idea col-md-6 col-sm-6">
+        <div class="col-md-5">
+        <div id="idea">
         <h2> Secondary Category</h2>
         <h4> Select your favorite </h4>
         <hr>
@@ -61,11 +58,12 @@
           </div>
           </div>
           </div>
-          <br/>
+          </div>
             <div class="container">
         <div class="line"></div>
         <div class="row bio z-pos-close transition">
-        <div class="idea col-md-6 col-sm-6">
+        <div class="col-md-5 col-md-offset-3">
+        <div id = "idea">
           <h2> Achromatic Category</h2>
         <h4> Select your favorite </h4>
         <hr>
@@ -90,7 +88,8 @@
           <div class="result3" ng-style="myStyle3"></div>
           </div>
           </div>
-          <div class="submit col-md-2 col-md-offset-2">
+          </div>
+          <div class="submit col-md-2 col-md-offset-5">
           <button class="btn btn-trinity btn-trinity-neonyellow animated bounce" ng-show="color1&&color2&&color3" ng-click="getResults()" id="submit" name="submit" type="submit">Submit colors</button>
           <!-- <md-button class="md-raised md-accent animated bounce" ng-show="color1&&color2&&color3" ng-submit="getResults()">Submit</md-button> -->
           </div>
