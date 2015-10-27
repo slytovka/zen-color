@@ -86,7 +86,7 @@ section {
 }
 .idea {
     background: grey;
-    margin: 6px;
+    margin: 5px;
     -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
@@ -96,4 +96,7 @@ section {
     height: 50px;
     display: inline-block;
     float: right;
+}
+.submit {
+margin-top: 17px;
 }
