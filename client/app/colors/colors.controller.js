@@ -81,9 +81,4 @@ angular.module('zenColorApp')
     };
 
 
-
-      //update user.colors
-      //console.log(user);
-      // user.colors = $scope.colors;
-      // $http.put for user
     });

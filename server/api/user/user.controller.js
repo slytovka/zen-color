@@ -90,6 +90,8 @@ exports.update = function(req, res, next) {
     if (err) { return handleError(res, err); }
     if (!user) { return res.status(404).send('Not Found'); }
     var updated = _.merge(user, req.body);
+    // hard coded colors due to merge/mongoose issue
+    updated.colors = req.body.colors;
     updated.save(function (err) {
       if (err) { return handleError(res, err); }
       return res.status(200).json(user);

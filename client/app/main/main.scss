@@ -1,6 +1,9 @@
 .thing-form {
     margin: 20px 0;
 }
+html {
+    background-color: black;
+}
 body{
     color: white;
     background: black;
@@ -16,9 +19,9 @@ section {
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
-    margin: 20px 80px;
+    margin: 20px 100px;
     position: relative;
-    top: 40px;
+    top: 120px;
 }
 .main {
     height: 750px;
@@ -164,6 +167,9 @@ margin-top: 25px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
 }
 
+#admin-colors {
+    text-transform: capitalize;
+}
 /*Contact */
 .contact-form{
     display: none;
@@ -179,6 +185,32 @@ margin-top: 25px;
          -o-transition: all .4s ease-in-out;
             transition: all .4s ease-in-out;
 }
+
+/*scroll navigation*/
+#scroll-nav {
+    margin-top: -125px;
+    position: fixed;
+    right: 2.5%;
+    top: 50%;
+    z-index: 99;
+}
+
+#scroll-nav li {
+    background: #E0E0E0;
+    border-radius: 27.5px;
+    display: block;
+    height: 55px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 55px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.3);
+    transition: background 400ms;
+}
+
+#scroll-nav li.active, #scroll-nav li:hover {
+    background: #d32f2f;
+}
+
 /*contact form*/
 
 .email-wrap{
@@ -354,16 +386,8 @@ input.send_message:hover {
     border-left: 2px solid rgba(0, 0, 0, 0);
     border-right: 2px solid #66BB6A;
     border-bottom: 2px solid #66BB6A;
-    -webkit-transform: rotateZ(40deg);
-    -moz-transform: rotateZ(40deg);
-    -ms-transform: rotateZ(40deg);
-    -o-transform: rotateZ(40deg);
     transform: rotateZ(40deg);
     -webkit-backface-visibility: hidden;
-    -webkit-transform-origin: 100% 100%;
-    -moz-transform-origin: 100% 100%;
-    -ms-transform-origin: 100% 100%;
-    -o-transform-origin: 100% 100%;
     transform-origin: 100% 100%;
 }
 
