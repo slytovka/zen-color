@@ -86,18 +86,19 @@
           </div>
           </div>
           </div>
-          <div class="animated fadeIn">
-          <div class="results" ng-show="isComplete">
-          <p>Things about you:</p>
+          <div class="results animated bounceInLeft" ng-show="isComplete">
+          <div class="results-header"><p>Things About You</p></div>
              <p ng-repeat="color in colors">{{color.info}}</p>
           </div>
-          <div class = "results" ng-show="isComplete">
-          <p>You have power to:</p>
+          <div class="together">
+          <div class = "results animated bounceInRight" ng-show="isComplete">
+          <div class="results-header"><p>You Have Power To:</p></div>
             <li ng-repeat= "color in colors">{{color.power}}</li>
           </div>
-          <div class = "results" ng-show="isComplete">
-          <p>You are:</p>
+          <div class = "results animated bounceInLeft" ng-show="isComplete">
+          <div class="results-header"><p>You Are:</p></div>
             <li ng-repeat= "color in colors">{{color.keyWords}}</li>
+          </div>
           </div>
           </div>
     </section>
