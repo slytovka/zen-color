@@ -46,6 +46,22 @@ angular.module('zenColorApp', [
     };
   })
 
+  .directive('scrollPosition', function($window) {
+  return {
+    scope: {
+      scroll: '=scrollPosition'
+    },
+    link: function(scope, element, attrs) {
+      var windowEl = angular.element($window);
+      var handler = function() {
+        scope.scroll = windowEl.scrollTop();
+      }
+      windowEl.on('scroll', scope.$apply.bind(scope, handler));
+      handler();
+    }
+  };
+})
+
   .run(function ($rootScope, $location, Auth) {
     // Redirect to login if route requires auth and you're not logged in
     $rootScope.$on('$stateChangeStart', function (event, next) {
@@ -56,4 +72,8 @@ angular.module('zenColorApp', [
         }
       });
     });
-  });
+  })
+
+  .controller('HelperController', function($scope) {
+  $scope.scroll = 0;
+});

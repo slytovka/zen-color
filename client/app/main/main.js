@@ -9,8 +9,6 @@ angular.module('zenColorApp')
       });
   });
 
-// angular.module('zenColorApp', ['ngMaterial'])
-//   .config(function($mdThemingProvider) {
-//     $mdThemingProvider.theme('default')
-//       .dark();
-//   });
+//   .controller('HelperController', function($scope) {
+//   $scope.scroll = 0;
+// });

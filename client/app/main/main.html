@@ -1,19 +1,19 @@
 
-<div class="main-page">
+<div class="main-page" ng-controller="HelperController">
 <div class="xtra-nav">
   <ul id="scroll-nav" class="hidden-xs">
-        <li class="elem-35 active"><a href="#cobj-35">&nbsp;</a></li>
-        <li class="elem-43 "><a href="#cobj-43">&nbsp;</a></li>
-        <li class="elem-44 "><a href="#cobj-44">&nbsp;</a></li>
+        <li ng-class="{active: (scroll < 600)}"><a href="#main"><span class="fa fa-home"></span></a></li>
+        <li ng-class="{active: (scroll > 600)&&(scroll<1500)}"><a href="#about"><span class="fa fa-pencil"></span></a></li>
+        <li ng-class="{active: scroll > 1500}"><a href="#contact"><span class="fa fa-envelope"></span></a></li>
     </ul>
 </div>
 
-<div class="main">
+<div class="main" id="main" scroll-position="scroll">
   <div class="jumbotron">
   <div class="cold-md-6">
     <div class="animated bounce"><h1>Welcome to Zen Color System</h1></div>
     <div class="animated bounceInLeft">
-      <p class="lead">We use color prefernce to show how each person prioritizes their life. Color preference is innate. A preffered color, for example, visually inspires a person to feel their hopes and aspirations. A non-preferred color irritatingly reminds them of what is missing in their life.</p>
+      <p class="lead">We use color prefernce to show how each person prioritizes their life. Color preference is innate. A preffered color, for example, visually inspires a person to feel their hopes and aspirations. A non-preferred color irritatingly reminds them of what is missing in their life. </p>
     </div>
   </div>
   </div>
@@ -77,6 +77,7 @@
           </div>
           </div>
 </section>
+
 
 <footer class="footer" style="margin-top: -30px">
   <div class="container">
