@@ -6,6 +6,10 @@ var config = require('../../config/environment');
 var jwt = require('jsonwebtoken');
 var _ = require('lodash');
 
+function handleError(res, err) {
+  return res.status(500).send(err);
+}
+
 var validationError = function(res, err) {
   return res.status(422).json(err);
 };

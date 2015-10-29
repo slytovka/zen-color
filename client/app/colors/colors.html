@@ -1,124 +1,139 @@
 <div class="colors">
-<section>
-  <div class="jumbotron" id="color-header" style="margin-bottom: 90px">
-    <h2> You are about to begin a quest that will deepen your understanding of yourself. To start please select one color from each category below</h2>
-  </div>
-      <div class="animated zoomIn">
+  <section>
+    <div class="jumbotron" id="color-header" style="margin-bottom: 90px">
+      <h2> You are about to begin a quest that will deepen your understanding of yourself. To start please select one color from each category below</h2>
+    </div>
+    <div class="animated zoomIn">
       <div class="container">
-      <div class="row bio z-pos-close transition">
-        <div class="col-md-5 col-md-offset-1">
-        <div id = "idea">
-        <h2> Primary Category </h2>
-        <h4> Select your favorite </h4>
-        <hr>
-          <md-button class="md-fab" style="background-color: yellow" ng-click="colorize('yellow')" aria-label="Play" ng-click="">
-              <md-tooltip>
-                YELLOW
-              </md-tooltip>
-          </md-button>
-          <md-button class="md-fab" style="background-color: blue" ng-click="colorize('blue')" aria-label="Play">
-              <md-tooltip>
-                BLUE
-              </md-tooltip>
-          </md-button>
-          <md-button class="md-fab" style="background-color: red" ng-click="colorize('red')" aria-label="Play">
-              <md-tooltip>
-                RED
-              </md-tooltip>
-          </md-button>
-          <div class="result1" ng-style="myStyle1"></div>
-          </div>
+        <div class="row bio z-pos-close transition">
+          <div class="col-md-5 col-md-offset-1">
+            <div id="idea">
+              <h2> Primary Category </h2>
+              <h4> Select your favorite </h4>
+              <hr>
+              <md-button class="md-fab" style="background-color: yellow" ng-click="colorize('yellow')" aria-label="Play" ng-click="">
+                <md-tooltip>
+                  YELLOW
+                </md-tooltip>
+              </md-button>
+              <md-button class="md-fab" style="background-color: blue" ng-click="colorize('blue')" aria-label="Play">
+                <md-tooltip>
+                  BLUE
+                </md-tooltip>
+              </md-button>
+              <md-button class="md-fab" style="background-color: red" ng-click="colorize('red')" aria-label="Play">
+                <md-tooltip>
+                  RED
+                </md-tooltip>
+              </md-button>
+              <div class="result1" ng-style="myStyle1"></div>
+            </div>
           </div>
 
-        <div class="col-md-5">
-        <div id="idea">
-        <h2> Secondary Category</h2>
-        <h4> Select your favorite </h4>
-        <hr>
-          <md-button class="md-fab" style="background-color: green" ng-click="colorize('green')" aria-label="Play">
-              <md-tooltip>
-                GREEN
-              </md-tooltip>
-          </md-button>
-          <md-button class="md-fab" style="background-color: purple" ng-click="colorize('purple')" aria-label="Play">
-              <md-tooltip>
-                PURPLE
-              </md-tooltip>
-          </md-button>
-          <md-button class="md-fab" style="background-color: orange" ng-click="colorize('orange')" aria-label="Play">
-              <md-tooltip>
-                ORANGE
-              </md-tooltip>
-          </md-button>
-          <div class="result2" ng-style="myStyle2"></div>
+          <div class="col-md-5">
+            <div id="idea">
+              <h2> Secondary Category</h2>
+              <h4> Select your favorite </h4>
+              <hr>
+              <md-button class="md-fab" style="background-color: green" ng-click="colorize('green')" aria-label="Play">
+                <md-tooltip>
+                  GREEN
+                </md-tooltip>
+              </md-button>
+              <md-button class="md-fab" style="background-color: purple" ng-click="colorize('purple')" aria-label="Play">
+                <md-tooltip>
+                  PURPLE
+                </md-tooltip>
+              </md-button>
+              <md-button class="md-fab" style="background-color: orange" ng-click="colorize('orange')" aria-label="Play">
+                <md-tooltip>
+                  ORANGE
+                </md-tooltip>
+              </md-button>
+              <div class="result2" ng-style="myStyle2"></div>
+            </div>
           </div>
-          </div>
-          </div>
-          </div>
-            <div class="container">
+        </div>
+      </div>
+
+      <div class="container">
         <div class="line"></div>
         <div class="row bio z-pos-close transition">
-        <div class="col-md-6 col-md-offset-3" style="margin-top: 5px">
-        <div id = "idea">
-          <h2> Achromatic Category</h2>
-        <h4> Select your favorite </h4>
-        <hr>
-          <md-button class="md-fab" style="background-color: black" ng-click="colorize('black')" aria-label="Play">
-              <md-tooltip>
-                BLACK
-              </md-tooltip>
-          </md-button>
-          <md-button class="md-fab" style="background-color: white" ng-click="colorize('white')" aria-label="Play">
-              <md-tooltip>
-                WHITE
-              </md-tooltip>
-          </md-button>
-          <md-button class="md-fab" style="background-color: brown" ng-click="colorize('brown')" aria-label="Play">
-              <md-tooltip>
-                BROWN
-              </md-tooltip>
-          </md-button>
-          <div class="result3" ng-style="myStyle3"></div>
+          <div class="col-md-6 col-md-offset-3" style="margin-top: 5px">
+            <div id="idea">
+              <h2> Achromatic Category</h2>
+              <h4> Select your favorite </h4>
+              <hr>
+              <md-button class="md-fab" style="background-color: black" ng-click="colorize('black')" aria-label="Play">
+                <md-tooltip>
+                  BLACK
+                </md-tooltip>
+              </md-button>
+              <md-button class="md-fab" style="background-color: white" ng-click="colorize('white')" aria-label="Play">
+                <md-tooltip>
+                  WHITE
+                </md-tooltip>
+              </md-button>
+              <md-button class="md-fab" style="background-color: brown" ng-click="colorize('brown')" aria-label="Play">
+                <md-tooltip>
+                  BROWN
+                </md-tooltip>
+              </md-button>
+              <div class="result3" ng-style="myStyle3"></div>
+            </div>
           </div>
-          </div>
-          </div>
-          <div class="submit col-md-2 col-md-offset-5">
+        </div>
+
+        <div class="submit col-md-2 col-md-offset-5">
           <button class="btn btn-trinity btn-trinity-neonyellow animated bounce" ng-show="color1&&color2&&color3" ng-click="getResults()" id="submit" name="submit" type="submit">Submit colors</button>
           <!-- <md-button class="md-raised md-accent animated bounce" ng-show="color1&&color2&&color3" ng-submit="getResults()">Submit</md-button> -->
-          </div>
-          </div>
-          </div>
-          <div class="results animated bounceInLeft" ng-show="isComplete">
-          <div class="results-header"><p>Things About You</p></div>
-             <p ng-repeat="color in colors">{{color.info}}</p>
-          </div>
-          <div class="together">
-          <div class = "results animated bounceInRight" ng-show="isComplete">
-          <div class="results-header"><p>You Have Power To:</p></div>
-            <li ng-repeat= "color in colors">{{color.power}}</li>
-          </div>
-          <div class = "results animated bounceInLeft" ng-show="isComplete">
-          <div class="results-header"><p>You Are:</p></div>
-            <li ng-repeat= "color in colors">{{color.keyWords}}</li>
-          </div>
-          </div>
-    </section>
+        </div>
+      </div>
+    </div>
+    <div class="results animated bounceInLeft" ng-show="isComplete">
+      <div class="results-header">
+        <p>Things About You</p>
+      </div>
+      <p ng-repeat="color in colors">{{color.info}}</p>
+    </div>
+    <div class="together">
+      <div class="results animated bounceInRight" ng-show="isComplete">
+        <div class="results-header">
+          <p>You Have Power To:</p>
+        </div>
+        <li ng-repeat="color in colors">{{color.power}}</li>
+      </div>
+      <div class="results animated bounceInLeft" ng-show="isComplete">
+        <div class="results-header">
+          <p>You Are:</p>
+        </div>
+        <li ng-repeat="color in colors">{{color.keyWords}}</li>
+      </div>
+      <div class="col-md-2 col-md-offset-5">
+       <button class="btn btn-trinity btn-trinity-neonyellow animated bounce" ng-show="isComplete" name="submit" type="submit" style="width: 100%"><a href="/">Go Back</a></button>
+      </div>
+    </div>
 
-<footer class="footer">
-  <div class="container">
-  <div class="row">
-  <div class="col-md-4">
-  <ul id="social">
-  <li><a class="fa fa-facebook" href="https://www.facebook.com/sviatoslav.lytovka" title="Facebook"></a></li>
-    <li><a class="fa fa-github" href="https://github.com/slytovka" title="Github"></a></li>
-  </ul>
-  </div>
-    <div class="col-md-4 col-md-offset-4">
-        <a href="https://github.com/slytovka">Made by Steven Lytovka &#169; 2015</a>
-        <p>All rights reserved</p>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <ul id="social">
+            <li>
+              <a class="fa fa-facebook" href="https://www.facebook.com/sviatoslav.lytovka" title="Facebook"></a>
+            </li>
+            <li>
+              <a class="fa fa-github" href="https://github.com/slytovka" title="Github"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+          <a href="https://github.com/slytovka">Made by Steven Lytovka &#169; 2015</a>
+          <p>All rights reserved</p>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
-</footer>
+  </footer>
 </div>
-

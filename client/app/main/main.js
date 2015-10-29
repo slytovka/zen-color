@@ -9,6 +9,3 @@ angular.module('zenColorApp')
       });
   });
 
-//   .controller('HelperController', function($scope) {
-//   $scope.scroll = 0;
-// });

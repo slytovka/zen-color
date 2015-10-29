@@ -1,14 +1,14 @@
 'use strict';
 
 angular.module('zenColorApp')
-  .service('colorService', function ($http) {
+  .service('colorService', function($http) {
     // AngularJS will instantiate a singleton by calling "new" on this function
-      var that = this;
+    var that = this;
 
-      that.color = [];
+    that.color = [];
 
-      //http call for get
-      that.getAll = function () {
-         return $http.get('/api/colors/');
-      }
+    //http call for get
+    that.getAll = function() {
+      return $http.get('/api/colors/');
+    };
   });
