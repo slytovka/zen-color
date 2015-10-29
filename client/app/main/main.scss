@@ -19,9 +19,9 @@ section {
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
-    margin: 20px 100px;
     position: relative;
-    top: 120px;
+    top: 80px;
+    margin: 10px 105px;
 }
 .main {
     height: 750px;
@@ -65,11 +65,28 @@ section {
 }
 
 .footer {
-    text-align: center;
+    text-align: right;
     padding: 30px 0;
     margin-top: 70px;
     border-top: 1px solid #E5E5E5;
-    background: black;
+    background-color:  #141B22;
+    color: #B7BABD !important;
+    font-family: "proxima-nova",sans-serif;
+    font-size: 18px;
+}
+.footer a {
+    color: #B7BABD;
+}
+
+#social {
+    list-style: none;
+    font-size: 30px;
+    display: inline-block;
+    float: left;
+    li {
+    float: left;
+    margin-right: 20px;
+}
 }
 
 .navbar-text {
@@ -83,7 +100,8 @@ section {
     color: red;
 }
 .signup, .login, .admin, .settings {
-    margin-top: 35px;
+    margin-top: 40px;
+    min-height: 560px;
 }
 .colors {
     margin-top: 50px;
@@ -92,11 +110,9 @@ section {
     background: grey;
     margin: 14px 4px;
     padding: 3px 12px;
-    -moz-box-shadow:    inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-     box-shadow:         inset 0 0 10px #000000;
-     text-align: center;
-     position: relative;
+    box-shadow: inset 0 0 10px #000000;
+    text-align: center;
+    position: relative;
 }
 .result1, .result2, .result3 {
     width: 50px;
@@ -119,6 +135,7 @@ margin-top: 25px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
     font-family: -apple-system, 'Helvetica Neue', 'Montserrat', sans-serif;
     max-width: 780px;
+    font-size: 20px;
 }
 .results li, .results p {
     padding: 5px 14px 0 14px;
@@ -126,8 +143,8 @@ margin-top: 25px;
 .results-header {
     background-color: #1291FF;
     width: 100%;
-    height: 30px;
-    font-size: 20px;
+    height: 40px;
+    font-size: 26px;
 }
 
 .md-fab {
@@ -159,7 +176,7 @@ margin-top: 25px;
     font-size: 24px;
     font-weight: 300;
     line-height: 25px;
-    margin-top: -5px;
+    margin-top: -55px;
     margin-bottom: 60px;
     padding: 0 10px 6px 10px;
     border-bottom: 2px solid #636F75;
@@ -170,6 +187,22 @@ margin-top: 25px;
 #admin-colors {
     text-transform: capitalize;
 }
+
+.list-group {
+    margin-top: 40px;
+
+}
+
+.firstcharacter {
+    float: left;
+    color: #903;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 2px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
 /*Contact */
 .contact-form{
     display: none;
@@ -270,8 +303,8 @@ form:not(#consultationForm) input {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
     color: #1976D2;
     font-family: 'Raleway',sans-serif;
-    font-size: 30px !important;
-    font-weight: 300 !important;
+    font-size: 30px;
+    font-weight: 300;
     line-height: 25px !important;
     height: 42px !important;
     margin-bottom: 10px !important;
@@ -287,14 +320,14 @@ form:not(#consultationForm) input {
 
 .inputField.error > input,
 .inputField.invalid > input{
-    border-bottom-color: #FF5252 !important;
+    border-bottom-color: #FF5252;
 }
 
 input.valid,
 input.valid:hover,
 textarea.valid:focus,
 textarea:focus{
-    border-bottom-color: #66BB6A !important;
+    border-bottom-color: #66BB6A;
 }
 
 textarea {
