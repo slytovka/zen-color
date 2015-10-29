@@ -13,7 +13,7 @@ angular.module('zenColorApp')
     $scope.getAll = function() {
       colorService.getAll().then(function(response) {
         $scope.colors = response.data;
-
+        console.log($scope.colors);
       });
     };
     $scope.getAll();
