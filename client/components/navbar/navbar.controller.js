@@ -7,7 +7,7 @@ angular.module('zenColorApp')
       'link': '/'
     },
      {
-      'title': 'Colors',
+      'title': 'Color Profile',
       'link': '/colors'
     }];
 
